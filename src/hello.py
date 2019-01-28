@@ -9,7 +9,7 @@ def say_hi():
 
 @utils.benchmark
 def say_bye():
-        print("bye git!")
+        print("Goodbye!")
 
 
 if __name__ == "__main__":
