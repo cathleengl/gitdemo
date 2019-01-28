@@ -5,7 +5,7 @@ import utils
 
 @utils.benchmark
 def say_hi():
-	print("hello git!")
+	print("hello EXVIVO!")
 
 @utils.benchmark
 def say_bye():
