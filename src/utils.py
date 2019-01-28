@@ -8,7 +8,7 @@ def benchmark(func):
 	def wrapper(*args, **kwargs):
 		t = clock()
 		res = func(*args, **kwargs)
-		print("function: ", func.__name__, "benchmark: ", clock()-t, "s")
+		print("Function: ", func.__name__, "time to execute: ", clock()-t, "s")
 		return res
 
 	return wrapper
